@@ -2,7 +2,7 @@
 
 A grid simulation of three flower species with distinct watering behavior and a cyclic winter dance.
 
-[All colloquia](../README.md) · [Original task PDF](<../kwiatki.pdf>)
+[All colloquia](../README.md) · [Original task PDF](<kwiatki.pdf>)
 
 ## Build and run
 
@@ -17,4 +17,4 @@ The included `Main` recreates the statement’s example and prints the flowerbed
 
 ## Task description
 
-The original Polish statement is retained in the authored [task PDF](<../kwiatki.pdf>).
+The original Polish statement is retained in the authored [task PDF](<kwiatki.pdf>).

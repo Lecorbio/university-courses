@@ -2,7 +2,7 @@
 
 A D’Hondt seat-allocation implementation with electoral thresholds, registration-order tie breaking, and candidate notifications.
 
-[All colloquia](../README.md) · [Original task PDF](<../2024 PO Kolokwium - Wybory.pdf>)
+[All colloquia](../README.md) · [Original task PDF](<2024 PO Kolokwium - Wybory.pdf>)
 
 ## Build and run
 
@@ -17,7 +17,7 @@ The included `Main` verifies the statement’s example, electoral thresholds, an
 
 ## Task description
 
-The original Polish statement is retained in the authored [task PDF](<../2024 PO Kolokwium - Wybory.pdf>).
+The original Polish statement is retained in the authored [task PDF](<2024 PO Kolokwium - Wybory.pdf>).
 
 ## Implementation notes
 

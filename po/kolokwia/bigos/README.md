@@ -2,7 +2,7 @@
 
 An in-memory model of files, directories, access permissions, and links, with tree traversal and deletion behavior.
 
-[All colloquia](../README.md) · [Original task PDF](<../Klasówka - BigOS.pdf>)
+[All colloquia](../README.md) · [Original task PDF](<Klasówka - BigOS.pdf>)
 
 ## Build and run
 
@@ -17,4 +17,4 @@ The included `Main` runs assertions for paths, links, moves, and deletion, then 
 
 ## Task description
 
-The original Polish statement is retained in the authored [task PDF](<../Klasówka - BigOS.pdf>).
+The original Polish statement is retained in the authored [task PDF](<Klasówka - BigOS.pdf>).

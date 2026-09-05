@@ -11,4 +11,4 @@ Java solutions to four past Object-Oriented Programming colloquia, with the orig
 | 2024 | [Elections](wybory/) | D’Hondt allocation and tie breaking |
 | 2025 | [Flowerbed](kwiatki/) | Polymorphism and grid operations |
 
-Each solution has its own README with commands to compile and run it independently. The original statements are authored PDFs and are linked from the corresponding solution. Printable copies of source-code notes are outside the published collection.
+Each solution has its own README with commands to compile and run it independently. Each solution folder also contains its original Polish statement as an authored PDF, linked from its README. Printable copies of source-code notes are outside the published collection.

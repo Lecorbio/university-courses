@@ -2,7 +2,7 @@
 
 A school-admissions allocation procedure that manages ranked student preferences, class capacity, and reconsideration after a place is freed.
 
-[All colloquia](../README.md) · [Original task PDF](<../Klasówka Kuratorium23.pdf>)
+[All colloquia](../README.md) · [Original task PDF](<Klasówka Kuratorium23.pdf>)
 
 ## Build and run
 
@@ -17,4 +17,4 @@ The included `Main` checks a reassignment scenario in which a student receives a
 
 ## Task description
 
-The original Polish statement is retained in the authored [task PDF](<../Klasówka Kuratorium23.pdf>).
+The original Polish statement is retained in the authored [task PDF](<Klasówka Kuratorium23.pdf>).
