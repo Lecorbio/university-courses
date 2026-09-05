@@ -2,6 +2,12 @@
 
 Programming coursework from Computer Science studies at the **University of Warsaw**, academic year **2025/26**.
 
+## Featured projects
+
+- **[Ski resort simulator](po/zadania/duze-zadanie-2/) · Java** — Simulates athletes, lift queues and route choices through object-oriented design, event scheduling and shortest-path planning.
+- **[Origami](wdp/Zadanie-3-Origami/) · C** — Counts the paper layers at a queried point after successive folds, using geometric reflection and recursion.
+- **[Arithmetic sequence](akso/zadanie-2/) · x86-64 assembly** — Computes sequence terms for signed integers spanning multiple 64-bit words, demonstrating carry handling and the C calling convention.
+
 ## Courses
 
 | Course | Focus | Languages | Contents |
