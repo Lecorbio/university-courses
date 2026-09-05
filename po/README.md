@@ -19,4 +19,4 @@ Each assignment is a separate program. Compile it in its own output directory, s
 
 ## Documentation
 
-Repository introductions and run instructions are in English. Original assignment statements remain in Polish, as Markdown or authored PDF documents. The homework index marks statements that still need to be added; every retained colloquium has its original PDF.
+Repository introductions and run instructions are in English. Original assignment statements remain in Polish, as Markdown or authored PDF documents. The homework index links to every statement; each retained colloquium also has its original PDF.

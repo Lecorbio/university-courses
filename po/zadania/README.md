@@ -8,18 +8,18 @@ Java assignments from **Programowanie obiektowe** (Object-Oriented Programming),
 
 | Assignment | Focus | Task description |
 | --- | --- | --- |
-| [1. Bilbo object model](zadanie-1/) | Object modelling in Dia | Missing |
-| [2. Majority voting](zadanie-2/) | Majority-vote algorithm | Missing |
-| [3. Hello World and Git](zadanie-3/) | Java entry point and Git workflow | Missing |
-| [4. Fractions](zadanie-4/) | Encapsulation and rational arithmetic | Missing |
-| [5. Double-ended queue](zadanie-5/) | Circular buffer and resizing | Missing |
-| [6. Expression trees](zadanie-6/) | Inheritance, differentiation, simplification | Missing |
-| [7. RPN calculator](zadanie-7/) | Stacks and error handling | Missing |
-| [8. Polynomials](zadanie-8/) | Class design and JUnit tests | Missing |
-| [9. Binary search tree](zadanie-9/) | Generics and ordering | Missing |
-| [Java and C++ performance](szybkosc-programow-java/) | Dijkstra benchmark and input generator | Missing |
-| [Large assignment 1. Ski resort](duze-zadanie-1/) | Event queue, simulation, statistics | Missing |
-| [Large assignment 2. Ski resort extensions](duze-zadanie-2/) | Strategies, graph search, history, maps | Original PDF |
+| [1. Bilbo object model](zadanie-1/) | Object modelling in Dia | [Markdown](zadanie-1/README.md#task-description) + [PDF](zadanie-1/Bilbo.pdf) |
+| [2. Majority voting](zadanie-2/) | Majority-vote algorithm | [Markdown](zadanie-2/README.md#task-description) |
+| [3. Hello World and Git](zadanie-3/) | Java entry point and Git workflow | [Markdown](zadanie-3/README.md#task-description) |
+| [4. Fractions](zadanie-4/) | Encapsulation and rational arithmetic | [Markdown](zadanie-4/README.md#task-description) |
+| [5. Double-ended queue](zadanie-5/) | Circular buffer and resizing | [Markdown](zadanie-5/README.md#task-description) |
+| [6. Expression trees](zadanie-6/) | Inheritance, differentiation, simplification | [Markdown](zadanie-6/TASK.md) |
+| [7. RPN calculator](zadanie-7/) | Stacks and error handling | [Markdown](zadanie-7/TASK.md) |
+| [8. Polynomials](zadanie-8/) | Class design and JUnit tests | [Markdown](zadanie-8/TASK.md) |
+| [9. Binary search tree](zadanie-9/) | Generics and ordering | [Markdown](zadanie-9/TASK.md) |
+| [Java and C++ performance](szybkosc-programow-java/) | Dijkstra benchmark and input generator | [Markdown](szybkosc-programow-java/TASK.md) |
+| [Large assignment 1. Ski resort](duze-zadanie-1/) | Event queue, simulation, statistics | [Original PDF](duze-zadanie-1/po2526-osrodek-narciarski-1.pdf) |
+| [Large assignment 2. Ski resort extensions](duze-zadanie-2/) | Strategies, graph search, history, maps | [Original PDF](duze-zadanie-2/po2526-osrodek-narciarski-2.pdf) |
 
 Assignment numbers follow the course numbering. The performance experiment is an additional homework assignment.
 
@@ -31,4 +31,4 @@ Homework 8 additionally uses Maven, and the performance experiment needs a C++17
 
 ## Task descriptions
 
-Original Polish statements are kept separately from English implementation and run notes. Missing statements are marked in the table and in each assignment README. An implementation summary is not an official specification.
+Every homework includes its original Polish statement. Text from Moodle is preserved as Markdown; the Bilbo base scenario and both ski-resort statements retain their authored PDF format. English implementation and run notes accompany the statements.

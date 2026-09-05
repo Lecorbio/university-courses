@@ -2,7 +2,7 @@
 
 A discrete-event simulation of athletes moving through ski routes and lifts. It models lift queues, route choice, changing route conditions, event reporting, and usage statistics.
 
-[All homework](../README.md) · [Part 2](../duze-zadanie-2/)
+[All homework](../README.md) · [Part 2](../duze-zadanie-2/) · [Original task PDF](po2526-osrodek-narciarski-1.pdf)
 
 ## Build and run
 
@@ -32,4 +32,4 @@ java -ea -cp out-test skiresort.tests.AutomatedTests
 
 ## Task description
 
-The original Polish assignment statement for part 1 is missing. The implementation summary above does not replace it. The [part 2 statement](../duze-zadanie-2/po2526-osrodek-narciarski-2.pdf) describes the extension and assumes the original part 1 requirements.
+The original Polish assignment is included as the authored, nine-page [Ośrodek Narciarski – część 1 PDF](po2526-osrodek-narciarski-1.pdf), downloaded from the [Moodle assignment page](https://moodle.mimuw.edu.pl/mod/assign/view.php?id=177398). It defines the simulation model, input format, required output, and project requirements.

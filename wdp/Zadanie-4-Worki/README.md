@@ -6,26 +6,35 @@
 
 Linked structures and dynamic container operations.
 
-This assignment implements the API in [`worki.h`](worki.h); it is a library and does not contain a standalone `main` function.
+This assignment implements the API in [`worki.h`](worki.h). The original [`main.cpp`](main.cpp) example exercises nested bags, moving objects, and reversing a bag's contents through assertions.
 
-## Build
+## Build and run
 
 From this assignment directory:
 
 ```sh
 make -C .. task-4
-```
-
-This creates `../build/worki.o`. A caller should include `worki.h` and link this object, or compile together with `worki.cpp`. For example, if your caller is named `main.cpp`:
-
-```sh
-c++ -std=c++23 main.cpp worki.cpp -o ../build/worki-example
 ../build/worki-example
 ```
 
-**Missing attachment:** the original `main.cpp` example mentioned in the task description is not included in the available files. The library can be compiled independently; the example command above requires a caller.
+The example exits successfully without output when its assertions pass. The build also creates `../build/worki.o`, which can be linked with another caller that includes `worki.h`. To compile the supplied example directly:
+
+```sh
+c++ -std=c++23 main.cpp worki.cpp -o main.e
+./main.e
+```
+
+## Files
+
+| File | Purpose |
+| --- | --- |
+| `worki.cpp`, `worki.h` | Library implementation and interface |
+| `main.cpp` | Original assertion-based example from Moodle |
+| `opcjeCpp` | Original GCC compilation options |
 
 ## Task description
+
+Statement checked against [Moodle — Zadanie 4: Worki](https://moodle.mimuw.edu.pl/mod/assign/view.php?id=162706). The original example attachment was recovered on 5 September 2026. The source page requires a university login.
 
 **Otwarto:** wtorek, 2 grudnia 2025, 10:00  
 **Wymagane do:** środa, 17 grudnia 2025, 16:00
@@ -36,7 +45,7 @@ Postanowiłeś uporządkować przedmioty znajdujące się na Twoim biurku, wkła
 
 `przedmiot *nowy_przedmiot()` - Wywołanie funkcji informuje o kolejnym przedmiocie znajdującym się na biurku. Funkcja powinna stworzyć nowy element typu `przedmiot` i dać w wyniku wskaźnik na ten element.
 
-`worek *nowy_worek()` - Kładziesz na biurku nowy worek. Worki otrzymują kolejny numer. Numery zaczynają się od 0 i są kolejnymi liczbami całkowitymi. Funkcja powinna stworzyć nowy element typu `worek` i dać w wyniku wskaźnik na ten element.
+`worek *nowy_worek()` - Kładziesz na biurko nowy worek. Worek otrzymuje kolejny numer. Numery zaczynają się od 0 i są kolejnymi liczbami całkowitymi. Funkcja powinna stworzyć nowy element typu `worek` i dać w wyniku wskaźnik na ten element.
 
 `void wloz(przedmiot *co, worek *gdzie)` - wkłada przedmiot `co` do worka `gdzie`. Możesz założyć, że w tym momencie zarówno przedmiot, jak i worek leżą bezpośrednio na biurku.
 
@@ -68,7 +77,7 @@ Różnice w pliku `opcjeCpp` w stosunku do pliku `opcje` z C są następujące: 
 
 Aby Twoje rozwiązanie uzyskało maksymalną punktację, koszt czasowy każdej funkcji musi być stały (poza techniczną funkcją `gotowe`). Jeśli będzie to koszt zamortyzowany stały, możesz stracić za to zadanie 0.5 pkt.
 
-Twoje rozwiązanie zostanie także uruchomione za pomocą narzędzia `valgrind`, które pozwala sprawdzać m.in., czy program nie miał wycieków pamięci (nieco więcej o tym narzędziu dowiesz się w scenariuszu z tygodnia). Zakładamy, że pamięć po interesantach, którzy wyszli z urzędu, zostanie zwolniona przez użytkownika. W przypadku wykrycia wycieków pamięci za pomocą komendy:
+Twoje rozwiązanie zostanie także uruchomione za pomocą narzędzia `valgrind`, które pozwala sprawdzać m.in., czy program nie miał wycieków pamięci (nieco więcej o tym narzędziu dowiesz się w scenariuszu za tydzień). Zakładamy, że pamięć po interesantach, którzy wyszli z urzędu, zostanie zwolniona przez użytkownika. W przypadku wykrycia wycieków pamięci za pomocą komendy:
 
 ```bash
 valgrind --tool=memcheck --leak-check=yes ./main.e
@@ -78,7 +87,7 @@ możesz stracić od 1 do 2 punktów za zadanie.
 
 ### Przykład
 
-W załączniku: `main.cpp`.
+W załączniku: [`main.cpp`](main.cpp).
 
 - `main.cpp` (24 listopada 2025, 21:26)
 - `opcjeCpp` (6 listopada 2025, 23:05)

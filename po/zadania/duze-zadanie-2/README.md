@@ -53,4 +53,4 @@ Java compilation and simulation do not require LaTeX. The course-provided map ge
 
 ## Task description
 
-The original Polish assignment is preserved as the authored [Ośrodek Narciarski – część 2 PDF](po2526-osrodek-narciarski-2.pdf). It extends part 1, whose original statement is still missing.
+The original Polish assignment is preserved as the authored [Ośrodek Narciarski – część 2 PDF](po2526-osrodek-narciarski-2.pdf). It extends [part 1](../duze-zadanie-1/), whose original statement is also included.

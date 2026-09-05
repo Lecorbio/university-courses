@@ -17,4 +17,4 @@ Enter one expression per line, for example `3 4 + 2 *` (result: `14`). A blank l
 
 ## Task description
 
-The original Polish assignment statement is missing. The summary above describes the available implementation; it does not replace the assignment requirements.
+[Read the original Polish assignment statement](TASK.md), recovered from the course's Moodle page.

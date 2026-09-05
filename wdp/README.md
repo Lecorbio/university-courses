@@ -28,7 +28,7 @@ make task-3          # Or build one assignment
 make clean           # Remove generated build files
 ```
 
-The input file must follow the format in the corresponding task description. Assignments 2, 3, 5, and 6 read standard input and write standard output. Assignment 1 is a library with an included assertion-based example (`build/ary`); assignment 4 builds a library object (`build/worki.o`) to link with a caller.
+The input file must follow the format in the corresponding task description. Assignments 2, 3, 5, and 6 read standard input and write standard output. Assignments 1 and 4 are libraries with included assertion-based examples (`build/ary` and `build/worki-example`). Assignment 4 also produces `build/worki.o` to link with another caller.
 
 To choose compilers explicitly:
 
@@ -42,4 +42,4 @@ On macOS, `gcc` and `g++` commonly invoke Apple Clang. The Makefile uses portabl
 
 Each assignment directory contains one implementation and the files needed to build it. The English introduction provides navigation and usage; the Polish task description preserves the coursework specification. Generated binaries and local metadata are ignored by Git.
 
-The original `main.cpp` example attachment for **Worki** is currently missing. Its full task description, interface, and implementation are included.
+The original `main.cpp` example attachment for **Worki** is included alongside its task description, interface, and implementation.

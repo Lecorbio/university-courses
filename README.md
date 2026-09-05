@@ -20,8 +20,8 @@ Open an assignment's README for its commands and required tools. Assignments are
 - **PO:** a Java Development Kit; individual assignments document any test dependencies.
 - **AKSO:** Linux on x86-64, GCC with C23 support, NASM and Make. Assembly programs target the Linux ABI and do not run natively on macOS.
 
-## Collection status
+## Task descriptions
 
-See [missing materials](docs/MISSING_MATERIALS.md) for original statements and attachments still needed to complete the collection.
+All **21 homework assignments** have their Polish task descriptions included. The four PO colloquium solutions also have their original PDFs. See [statement sources and formats](docs/STATEMENTS.md) for details.
 
 Laboratory exercises, lecture notes, general exam preparation, earlier solution variants and generated files are excluded from Git. The PO colloquium solutions are included as a separate section of that course.

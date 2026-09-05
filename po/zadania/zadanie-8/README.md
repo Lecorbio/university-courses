@@ -22,4 +22,4 @@ Maven downloads the declared test dependencies on the first run. The homework is
 
 ## Task description
 
-The original Polish assignment statement is missing. The summary above describes the available implementation; it does not replace the assignment requirements.
+[Read the original Polish assignment statement](TASK.md), recovered from the course's Moodle page. The statement links to the accompanying JUnit scenario; the final polynomial implementation and tests are included here.

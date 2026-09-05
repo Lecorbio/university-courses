@@ -17,4 +17,18 @@ The demonstration prints arithmetic and comparison results for a few fractions.
 
 ## Task description
 
-The original Polish assignment statement is missing. The summary above describes the available implementation; it does not replace the assignment requirements.
+Source: [Moodle — Zadanie 4 (Ułamek)](https://moodle.mimuw.edu.pl/mod/assign/view.php?id=176615).
+
+Proszę dokończyć zadanie Ułamek z dzisiejszych zajęć.
+
+Metody do zaimplementowania:
+
+- `toString`: `"licznik/mianownik"` w postaci nieskracalnej;
+- gettery do licznika i mianownika;
+- odwracanie ułamka;
+- dodawanie, odejmowanie, mnożenie, dzielenie;
+- porównania: równość i mniejszość.
+
+W metodzie `main` proszę utworzyć kilka ułamków i wypróbować zaimplementowane metody.
+
+Od tego zadania można (i do tego zachęcam) wysyłać rozwiązania także na GitLabie — więcej informacji jest w [instrukcji wysyłania rozwiązań](https://moodle.mimuw.edu.pl/mod/page/view.php?id=176602).

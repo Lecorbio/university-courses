@@ -18,7 +18,7 @@ all: task-1 task-2 task-3 task-4 task-5 task-6
 task-1: $(BUILD)/ary
 task-2: $(BUILD)/trz
 task-3: $(BUILD)/ori
-task-4: $(BUILD)/worki.o
+task-4: $(BUILD)/worki-example
 task-5: $(BUILD)/scisle-przedzialy
 task-6: $(BUILD)/przelewanka
 
@@ -36,6 +36,9 @@ $(BUILD)/ori: $(TASK3)/ori.c | $(BUILD)
 
 $(BUILD)/worki.o: $(TASK4)/worki.cpp $(TASK4)/worki.h | $(BUILD)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@
+
+$(BUILD)/worki-example: $(TASK4)/main.cpp $(BUILD)/worki.o $(TASK4)/worki.h | $(BUILD)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(TASK4)/main.cpp $(BUILD)/worki.o $(LDFLAGS) -o $@ $(LDLIBS)
 
 $(BUILD)/scisle-przedzialy: $(TASK5)/prz.cpp | $(BUILD)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $< $(LDFLAGS) -o $@ $(LDLIBS) -lm

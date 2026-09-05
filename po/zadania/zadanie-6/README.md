@@ -17,4 +17,4 @@ The demonstration evaluates and differentiates `2x + 3`, approximates its integr
 
 ## Task description
 
-The original Polish assignment statement is missing. The summary above describes the available implementation; it does not replace the assignment requirements.
+[Read the original Polish assignment statement](TASK.md), recovered from the course's Moodle page.

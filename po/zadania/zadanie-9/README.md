@@ -17,4 +17,4 @@ The demonstration prints two trees, their sizes, and the result of duplicate ins
 
 ## Task description
 
-The original Polish assignment statement is missing. The summary above describes the available implementation; it does not replace the assignment requirements.
+[Read the original Polish assignment statement](TASK.md), recovered from the course's Moodle page.

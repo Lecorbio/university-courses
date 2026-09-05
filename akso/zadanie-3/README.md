@@ -38,7 +38,7 @@ Verification on Linux x86-64 passed the example and 37 existing valid/invalid te
 
 ## Task description
 
-Transcribed from the two available pages of a saved Moodle page print. The functional statement, example, build commands, and grading criteria are present. The first page is labelled 1/3, but the saved file contains only two pages. Page 3 was not saved, so any text after the visible grading criteria cannot be verified.
+Complete statement transcribed from [Moodle — Zadanie 3](https://moodle.mimuw.edu.pl/mod/assign/view.php?id=169908) and verified on 5 September 2026. The source page requires a university login.
 
 **Otwarto:** poniedziałek, 11 maja 2026, 00:00  
 **Wymagane do:** środa, 3 czerwca 2026, 23:59
@@ -90,7 +90,7 @@ Program sygnalizuje poprawne zakończenie kodem 0. Program sygnalizuje błąd, k
 Jako rozwiązanie należy wstawić w Moodle plik o nazwie `discrete_fractal.asm`. Rozwiązanie będzie kompilowane i linkowane poleceniami:
 
 ```sh
-nasm -f elf64 -w+all -w+error -w+unknown-warning -w+reloc-rel -o discrete_fractal.o discrete_fractal.asm
+nasm -f elf64 -w+all -w+error -w-unknown-warning -w-reloc-rel -o discrete_fractal.o discrete_fractal.asm
 ld -pie -I /lib64/ld-linux-x86-64.so.2 --fatal-warnings -o discrete_fractal discrete_fractal.o
 ```
 
@@ -102,3 +102,9 @@ Ocena składa się z dwóch części.
 
 1. Zgodność rozwiązania ze specyfikacją będzie oceniania za pomocą testów automatycznych, za które dostaje się maksymalnie 7 punktów. Przede wszystkim będzie oceniana poprawność wyniku. W tym zadaniu priorytetem jest szybkość działania programu, ale oceniane będą też rozmiary sekcji i wykorzystanie pamięci. Za błędną nazwę pliku źródłowego odejmiemy jeden punkt.
 2. Za formatowanie i jakość kodu dostaje się maksymalnie 3 punkty. Tradycyjne formatowanie programów w asemblerze polega na rozpoczynaniu etykiet od pierwszej kolumny, a mnemoników rozkazów, ich parametrów i komentarzy do nich od wybranej ustalonej kolumny. Nie stosuje się innych wcięć. Taki format mają przykłady pokazywane na zajęciach. Kod powinien być dobrze skomentowany, co oznacza między innymi, że każdy blok kodu powinien być opatrzony informacją, co robi. Należy opisać przeznaczenie rejestrów. Komentarza wymagają wszystkie kluczowe lub nietrywialne linie kodu. W przypadku asemblera nie jest przesadą komentowanie prawie każdej linii kodu, ale należy unikać komentarzy opisujących to, co widać.
+
+Zastrzegamy sobie uzależnienie wystawienia oceny od osobistego wyjaśnienia prowadzącemu zajęcia szczegółów działania kodu.
+
+**Rozwiązania należy implementować samodzielnie pod rygorem niezaliczenia przedmiotu. Zarówno korzystanie z cudzego kodu, jak i prywatne lub publiczne udostępnianie własnego kodu jest zabronione.**
+
+[L-system — Wikipedia](https://en.wikipedia.org/wiki/L-system)

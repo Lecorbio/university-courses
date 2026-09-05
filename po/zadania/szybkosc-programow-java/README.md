@@ -51,4 +51,4 @@ Each run reports graph parameters, the input filename, `checksum`, and `elapsed_
 
 ## Task description
 
-The original Polish assignment statement is missing. The summary above describes the available experiment; it does not replace the assignment requirements.
+Read the complete original Polish [task description](TASK.md), recovered from the [Moodle assignment forum](https://moodle.mimuw.edu.pl/mod/forum/view.php?id=170644). It specifies the comparison, JVM modes, measurements, and information required to reproduce the experiment.
