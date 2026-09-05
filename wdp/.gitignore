@@ -1,0 +1,12 @@
+# macOS metadata
+.DS_Store
+
+# Local build output
+/build/
+*.o
+*.e
+*.dSYM/
+
+# Executables from the original task commands
+/Zadanie-1-Zbiory-arytmetyczne/ary
+/Zadanie-1-Zbiory-arytmetyczne/zbior_ary

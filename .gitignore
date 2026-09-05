@@ -1,0 +1,53 @@
+# Local originals, migration records and review material.
+/.local-only/
+
+# Operating-system and editor files.
+.DS_Store
+._*
+.vscode/
+.idea/
+*.iml
+*~
+*.swp
+
+# Build products. Expected-output fixtures (*.out) are intentionally not ignored.
+build/
+out/
+out-test/
+target/
+__pycache__/
+*.pyc
+*.class
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# AKSO laboratory and lecture material.
+/akso/lab-*/
+/akso/wyklady/
+/akso/LABOLATORIA.md
+/akso/zadanie-1/rstack_example
+/akso/zadanie-2/arithmetic_sequence_example_c
+/akso/zadanie-2/arithmetic_sequence_example_cpp
+/akso/zadanie-3/discrete_fractal
+
+# PO laboratory, lecture and general exam-preparation material.
+/po/laboratoria/
+/po/wyklady/
+/po/egzaminy/
+/po/kolokwia/notatki/
+
+# Earlier submissions, reference archives and generated benchmark inputs.
+/po/zadania/duze-zadanie-2-rozwiazanie.zip
+/po/zadania/duze-zadanie-2/generator-mapek.zip
+/po/zadania/duze-zadanie-2/rozwiazanie-czesci-1.zip
+/po/zadania/duze-zadanie-2/mapka-dane-1.pdf
+/po/zadania/szybkosc-programow-java/graph.txt
+/po/zadania/szybkosc-programow-java/graph_large.txt
+
+# Simulation results; keep the Java source package named "output".
+/po/zadania/duze-zadanie-1/output/
+/po/zadania/duze-zadanie-2/output/
+/po/zadania/duze-zadanie-2/output-dane*/
